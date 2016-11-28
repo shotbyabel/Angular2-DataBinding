@@ -1,15 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-databinding',
+  selector: 'fa-databinding',
   templateUrl: './databinding.component.html',
   styleUrls: ['./databinding.component.css']
 })
 export class DatabindingComponent implements OnInit {
 
-  constructor() { }
+  stringInterpolation = 'this is string interpolation in action!';
+  numberInterpolation = 8;
 
-  ngOnInit() {
-  }
+  // constructor() { }
+
+  // ngOnInit() {
+  // }
 
 }
